@@ -1,0 +1,47 @@
+.mainBody {background-color: lightgrey; width: 976px;margin: auto;}
+
+.myHeader {background-color: grey; width: 976px; height: 96px; padding: 32px 32px 32px 32px;}
+
+.myLogo   {width: 32px; height: 32px; margin-right: 5px;}
+
+.myLogoText {color: white; font-size: 20px; margin-top: 36px; margin-bottom: 36px;}
+
+.myBody {background-color: #f2f2f2; padding-left: 32px; padding-right: 32px; padding-top: 64px; padding-bottom: 64px;}
+
+.listTitle {color: gray; font-size: 24px; margin-bottom: 32px;}
+
+.tableContainer {background-color: white; width: 912px; margin-top: 10px; margin-bottom: 64px;}
+
+.formContainer {background-color: white; width: 912px; height: 72px; padding: 16px 16px 16px 16px;}
+
+.tableButtons {float: right; padding-right: 24px; color:#909090; height:24; width:24;}
+
+.tableButtons:hover {color: #909090;}
+
+.myError {box-shadow: 0 0 5px 1px red;}
+
+input[type=text],[type=email] 
+{
+float: left; background-color: #f2f2f2; border: 1px; border-color: black;
+margin-right:16px; height:40px; width:auto; font-size:16px; padding:10px 10px 10px 10px;
+}
+
+input[type=button]
+{
+float: right; background-color: #999999; color: #f2f2f2; border: 1px; margin-right:
+16px; height: 40px; width: auto; font-size: 16px; padding: 10px 10px 10px 10px;
+}
+
+table {border-collapse: collapse; width: 100%;}
+
+th
+{
+padding-left: 24px; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; height: 48px; color:#757575; font-size: 14px;
+line-height:16px; font-weight:500; text-align: left; border-bottom: 1px solid #ddd; text-decoration:none;
+}
+
+td 
+{
+padding-left: 24px; padding-top: 24px; padding-right: 24px; padding-bottom: 24px; height: 72px; color:#505050;
+font-size: 16px; line-height:24px; font-weight:400; text-align: left; border-bottom: 1px solid #ddd; text-decoration:none;
+}
